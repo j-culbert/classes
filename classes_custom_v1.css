@@ -1,0 +1,254 @@
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+<style>
+
+/* elements in classes to be changed */
+ /* .class, #id */
+
+.topnav{
+	
+}
+.hp_header{
+	
+}
+#sysname, #syshyphen, #systemtagline{
+	
+}
+
+#content{
+	
+}
+
+#contentleft, #contentcenter, #contentright{
+	
+}
+
+/* inside #content elements */
+
+#infobox, .roundbox outerbox{
+	
+}
+
+.roundbox headerbox{
+	
+}
+
+.roundbox innerbox{
+	
+}
+
+
+</style>
+
+
+/* below are the custom styles from the LibGuides, many elements are similar in LibAnswers */
+
+/*
+.pagetitle {
+	display: block;
+	font: 25px Montserrat, Helvetica, arial, sans-serif !important;
+	font-weight: bold;
+	color: #333;
+	display: block;
+	padding: 16px 0px 0px 8px;
+}
+
+.pagedesc{
+	padding: 0px;
+	margin-top: 2px;
+	margin-left: 8px;
+}
+
+/* page tabs- shared properties for square and round tabs */
+			
+/*tabs at top of page, below guide title, above page content*/
+
+/*tabs at top of page, below guide title, above page content*/
+
+
+/*
+#tabsI, #tabs12{
+	border: none !important;
+}
+
+#tabsI, #tabs12 {
+	font: 14px Montserrat, "Helvetica Neue", Helvetica, arial, sans-serif !important;
+	} 
+
+#tabs12 a, #tabs12 a span {
+	background-image:none;
+	color: #000;
+	font: 14px Montserrat, "Helvetica Neue", Helvetica, arial, sans-serif !important;
+	}
+
+#tabsI a span, #tabs12 a span {
+	background-color: #bbbbbb;
+	padding: 5px 8px;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	margin:0px;
+	text-align: center;
+	}
+	
+#tabsI a span:hover, #tabs12 a span:hover {
+	color: #000;
+	background-color: #e8e8e8;
+	font: 14px Montserrat, "Helvetica Neue", Helvetica, arial, sans-serif !important;
+	}
+
+/*tab of the page you're on*/
+
+/*
+#current a span {
+	color: #000;
+	background-color: #e8e8e8;
+	font-weight: bold !important;
+	}
+
+/*for sub-pages*/
+
+/*.dropmenudiv a:hover {
+	font-family:Montserrat,helvetica, arial,sans-serif !important;
+	font-weight:normal !important;
+	background-color: #e8e8e8;
+	color:#000;} 
+
+.dropmenudiv a{
+	font-weight: normal !important;
+}
+
+.dropmenudiv {
+	font-size:12px;
+	font-weight:normal !important;
+	font-family:Montserrat, helvetica, arial,sans-serif !important;
+	margin-top:-5px;
+	background-color: #bbbbbb;
+	padding: 8px;
+}
+
+/*band below tabs, with title of page and search box*/
+
+
+/*.stitle{
+	background-image: none;	
+	background-color: rgb(232, 232, 232);
+	text-align: left;
+	padding: 10px 0px 0px 12px;
+	margin-bottom: 0px !important;
+}
+
+#guide_tab_title_bar_page_name, #guide_tab_title_bar_page_comments, #guide_tab_title_bar_page_print
+	{
+	display: none;
+	}
+/* main profile content shows up only on profile pages or main homepage */
+
+
+/*#main_profile_content{
+	border: none !important;
+}
+
+#content{
+	padding: 0px;
+	border-bottom: 1px solid #b2b2b2;
+}
+ 	
+#content.guide_edit_content{
+	width: 100%;
+	padding: 2px;
+	background-color: #d5d5d5;
+	border-top: 1px solid #333;
+}
+
+#contentleft, #contentcenter, #contentright {
+	margin-top: 8px;
+}
+
+#content, #contentleft, #contentcenter, #contentright, #centerboxes, #leftboxes, #rightboxes {
+	display: block;
+	float: left;
+	min-height: 100%;
+	width: 100%;
+	height: 100%;
+	background-color: #e8e8e8;
+	}
+		
+#contentleft {
+	margin-left: 6px;
+}
+
+div.roundbox{
+		border-radius: 0px;
+		-webkit-border-radius: 0px !important;
+}
+
+/* boxes inside content container */
+
+
+/*.headerbox {
+	background-color: #bbbbbb;
+	border-radius: 0px !important;
+	margin-bottom: 0px !important;
+	}
+
+.headerbox h2 {
+	color: #000 !important;
+	font: 14px Montserrat, Helvetica, arial, sans-serif !important;
+	display: block;
+}
+
+.outerbox {
+	background-color: #e8e8e8 !important;
+	border-radius: 0px !important;
+	padding: 0px;
+	margin-left: 6px;
+	margin-right: 6px;
+	}
+
+ /* librarian profile boxes ONLY */
+ 	
+
+/*.innerbox, .innerboxprofile {
+	background-color: #FFFFFF;
+	border-radius: 0px !important;
+	border: 1px solid #bbbbbb;
+	border-top: none;
+	padding: 16px;
+}
+div.roundbox{
+	border-radius: 0px;
+	-webkit-border-radius: 0px !important;
+}
+
+/* center content boxes in a list form */
+
+/*
+.largetext {
+	background-image: none;
+	background-color: #bbbbbb !important;
+	border-radius: 0px !important;
+	margin-bottom: 0px !important;
+	padding: 4px 4px 5px 5px !important;
+}
+
+.textcolor{
+	color: #000 !important;
+	font: 18px Montserrat, Helvetica, arial, sans-serif !important;
+	display: block;
+	font-weight: normal !important;
+}
+
+.pdisplay_div{
+	background-color: #fff;
+	padding: 5px;
+}
+
+#footer{
+	border-top: none !important;
+	margin: 10px 10px 0px 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+	font-size: 12px !important;
+}			
+</style>
